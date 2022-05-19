@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.release-container {
+  display: grid;
+  width: 90vw;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 50px 1.8rem;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: yellow;
+  height: 250px;
+  width: 200px;
+  padding: 10px;
+}
+
+header .logo {
+  text-align: left;
+  width: 10%;
+}
+
+header nav ul {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  display: flex;
+  list-style: none;
+  margin-left: 10px;
+  padding: 30px;
+  gap: 10px;
+  color: black;
+}
+
+header nav li {
+  margin: 0.02rem;
+}
+
+header {
+  width: 100%;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 768px) {
+  .release-container {
+    display: block;
+  }
+}
