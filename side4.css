@@ -171,17 +171,17 @@ iframe {
   width: 100%;
 }
 
-.showcase {
+/* .showcase {
   position: relative;
-}
-.iframe-wrapper {
+} */
+/* .iframe-wrapper {
   position: absolute;
   top: 20px;
   left: 0;
-}
-body {
+} */
+/* body {
   flex-direction: column;
-}
+} */
 
 /* .overlay {
   position: absolute;
