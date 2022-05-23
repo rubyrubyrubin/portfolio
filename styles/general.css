@@ -12,9 +12,9 @@ img {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "anna";
-  src: url("fonts/orbitron-.woff2") format("woff2");
+* {
+  margin: 0;
+  padding-inline: 15px;
 }
 
 @font-face {
@@ -23,8 +23,9 @@ img {
 }
 
 h1 {
-  font-family: anna;
+  font-family: work;
   font-size: 3rem;
+  color: black;
 }
 
 h2 {
@@ -34,21 +35,19 @@ h2 {
   margin-top: 40px;
   line-height: 1.1;
   font-family: work;
+  color: black;
 }
 h3 {
   font-family: work;
   font-size: 1.3rem;
   line-height: 1.1;
+  color: black;
 }
 
 h4 {
   font-family: work;
   font-size: 1rem;
-}
-
-* {
-  margin: 0;
-  padding-inline: 15px;
+  color: black;
 }
 
 .box {
@@ -64,22 +63,6 @@ body {
 
 main {
   margin-block: 3rem;
-}
-
-img {
-  width: 100%;
-}
-
-h1 {
-  color: black;
-}
-
-h2 {
-  color: black;
-}
-
-h3 {
-  color: black;
 }
 
 p {
