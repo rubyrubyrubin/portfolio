@@ -41,6 +41,8 @@ footer {
 
 .row {
   display: flex;
+  justify-content: center;
+  justify-items: center;
   flex-wrap: wrap;
   padding: 0 4px;
 }
