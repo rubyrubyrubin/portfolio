@@ -17,7 +17,8 @@
       <div class="logo">
         <a href="index.html"><img src="Icon.png" alt="logo" /> </a>
       </div>
-      <nav>
+
+      <div class="menu">
         <ul>
           <li><a href="side2.html">Animation</a></li>
           <li><a href="side3.html">Illustration</a></li>
@@ -25,7 +26,7 @@
           <li><a href="side5.html">Contact</a></li>
           <li><a href="side6.html">About</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
 
     <main>
@@ -47,6 +48,20 @@
       <video width="320" height="240" autoplay loop controls>
         <source src="greenworld.mp4" type="video/mp4" />
       </video>
+
+ <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
+
+
     </main>
     <footer>
       <p>&#169; Anna Rubin</p>
