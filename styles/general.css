@@ -9,7 +9,7 @@ img {
 
   cursor: revert;
 
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 * {
